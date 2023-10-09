@@ -20,8 +20,11 @@ parts/
 sdist/
 var/
 wheels/
+<<<<<<< HEAD
 pip-wheel-metadata/
 share/python-wheels/
+=======
+>>>>>>> 7b9af79... init: repo
 *.egg-info/
 .installed.cfg
 *.egg
@@ -40,14 +43,20 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
+<<<<<<< HEAD
 .nox/
+=======
+>>>>>>> 7b9af79... init: repo
 .coverage
 .coverage.*
 .cache
 nosetests.xml
 coverage.xml
 *.cover
+<<<<<<< HEAD
 *.py,cover
+=======
+>>>>>>> 7b9af79... init: repo
 .hypothesis/
 .pytest_cache/
 
@@ -59,7 +68,10 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
+<<<<<<< HEAD
 db.sqlite3-journal
+=======
+>>>>>>> 7b9af79... init: repo
 
 # Flask stuff:
 instance/
@@ -77,6 +89,7 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+<<<<<<< HEAD
 # IPython
 profile_default/
 ipython_config.py
@@ -97,6 +110,13 @@ __pypackages__/
 # Celery stuff
 celerybeat-schedule
 celerybeat.pid
+=======
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+>>>>>>> 7b9af79... init: repo
 
 # SageMath parsed files
 *.sage.py
@@ -122,8 +142,31 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+<<<<<<< HEAD
 .dmypy.json
 dmypy.json
 
 # Pyre type checker
 .pyre/
+=======
+
+mmdet/version.py
+data/
+.vscode
+.idea
+.DS_Store
+
+# custom
+*.pkl
+*.pkl.json
+*.log.json
+work_dirs/
+
+# Pytorch
+*.pth
+*.py~
+*.sh~
+
+# vim
+*.swp
+>>>>>>> 7b9af79... init: repo
